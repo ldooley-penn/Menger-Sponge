@@ -18,3 +18,5 @@ target_link_libraries(Menger-Sponge PRIVATE
 )
 
 target_include_directories(Menger-Sponge PRIVATE "src")
+
+file(COPY "${CMAKE_SOURCE_DIR}/src/Shaders/" DESTINATION "${CMAKE_BINARY_DIR}/src/Shaders/")
